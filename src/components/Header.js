@@ -51,7 +51,6 @@ function Header() {
             >
               Crypto Hunter
             </Typography>
-            {/* <Button color="inherit">Login</Button> */}
             <Select
               variant="outlined"
               labelId="demo-simple-select-label"
@@ -61,7 +60,7 @@ function Header() {
               onChange={(e) => setCurrency(e.target.value)}
             >
               <MenuItem value={"USD"}>USD</MenuItem>
-              <MenuItem value={"INR"}>INR</MenuItem>
+              <MenuItem value={"UAH"}>UAH</MenuItem>
             </Select>
           </Toolbar>
         </Container>
